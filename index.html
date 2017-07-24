@@ -220,7 +220,6 @@
 			}, 2000);
 		}   else if (arrOfLastNames.indexOf(studentHash) === -1){
 			console.log('i don`t know him');
-			
 			clearStudentsList();
 			showLoader(1);
 			var timer = setTimeout(function() {
@@ -231,8 +230,7 @@
 			console.log('i know him');
 			showLoader(1);
 			clearStudentsList();
-			//renderStudentInfo(students[arrOfLastNames.indexOf(studentHash)]);
-			var timer = setTimeout(function() {
+			\var timer = setTimeout(function() {
 				showLoader(0);
 				renderStudentInfo(students[arrOfLastNames.indexOf(studentHash)]);
 			}, 2000);
@@ -240,8 +238,6 @@
 
 	});
 
-
-			// renderStudentInfo(findStudentByLastName('Chapkailo'));
 		</script>
 
 	</body>
